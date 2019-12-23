@@ -1,6 +1,7 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-
+				<h1>I AM FOOTER!!!!</h1>
+				<h2>Hello ROJO!</h2>
 				<!-- copyright -->
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
