@@ -1,0 +1,4 @@
+require:
+  - wp-cli/browse-command.php
+@mvmt.practice:
+  ssh: vagrant:mvmt.practice:/var/www/html

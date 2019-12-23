@@ -1,0 +1,22 @@
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+@import url("https://fonts.googleapis.com/css?family=Hind:400,700|Roboto+Slab");
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+  color: mediumaquamarine;
+}
+@media only screen and (max-width:768px) {
+	header {
+		display: none;
+	}
+	footer {
+		display: none;
+	}
+}
+/*# sourceMappingURL=style.css.map */
