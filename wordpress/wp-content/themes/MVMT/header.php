@@ -30,7 +30,7 @@
 
 			<!-- header -->
 			<header class="header clear" role="banner">
-			
+
 				<!-- logo -->
 				<div class="logo">
 					<a href="<?php echo home_url(); ?>">
@@ -42,3 +42,4 @@
 
 			</header>
 			<!-- /header -->
+<h1>Hola Cruz!</h1>
