@@ -4,4 +4,19 @@
  */
 
 
-.footer {}
+.footer {
+
+}
+.footer .bg_dark {
+  background-color: #000;
+  p {
+    color: #fff;
+    margin: 0;
+  }
+}
+.footer .value-propositions {
+  padding: 25px 15px 35px;
+  img {
+    margin: 0 20px;
+  }
+}

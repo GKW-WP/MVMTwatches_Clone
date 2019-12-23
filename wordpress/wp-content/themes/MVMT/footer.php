@@ -1,31 +1,28 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-				<h1>I AM FOOTER!!!!</h1>
-				<h2>Hello ROJO!</h2>
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
+			<div class="row d-flex flex-row justify-content-around align-items-center bg_dark">
+				<div class="col-md-3 d-flex value-propositions flex-row align-items-center justify-content-center">
+					<img src="//cdn.shopify.com/s/files/1/0377/2037/t/140/assets/proposition-img-0.svg?3622083" alt="white illustrated plane" class="" height="43" width="40">
+					<p class="d-flex align-self-center">Free World Shipping</p>
+				</div>
+				<div class="col-md-3 d-flex value-propositions flex-row align-items-center justify-content-center">
+					<img src="//cdn.shopify.com/s/files/1/0377/2037/t/140/assets/proposition-img-1.svg?3622083" alt="white illustrated arrow" height="43" width="40">
+					<p>FREE RETURNS WORLDWIDE <br>ON ORDERS OVER $50</p>
+				</div>
+				<div class="col-md-3 d-flex value-propositions flex-row align-items-center justify-content-center">
+					<img src="//cdn.shopify.com/s/files/1/0377/2037/t/140/assets/proposition-img-2.svg?3622083" alt="white illustrated starburst" height="43" width="40">
+					<p>24 MONTH WARRANTY ON ALL <br>PRODUCTS</p>
+				</div>
+				<div class="col-md-3 d-flex value-propositions flex-row align-items-center justify-content-center">
+					<img src="//cdn.shopify.com/s/files/1/0377/2037/t/140/assets/proposition-img-3.svg?3622083" alt="white illustrated shield" height="43" width="40" class="">
+					<p>100% SAFE & SECURE <br>CHECKOUT</p>
+				</div>
+			</div>
 
 			</footer>
 			<!-- /footer -->
-
 		</div>
 		<!-- /wrapper -->
-
 		<?php wp_footer(); ?>
-
-		<!-- analytics -->
-		<script>
-		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
-		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
-		l=i.getElementsByTagName(r)[0];h.async=1;h.src=e;l.parentNode.insertBefore(h,l)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
-		ga('send', 'pageview');
-		</script>
-
 	</body>
 </html>
