@@ -1,8 +1,9 @@
 <?php
 /*
- *  Author: Todd Motto | @toddmotto
- *  URL: html5blank.com | @html5blank
+ *  Author: Downpoür | @Downpoür
+ *  URL: MVMT.Practice | @Downpoür
  *  Custom functions, support, custom post types and more.
+ *  Version: 1.0
  */
 
 /*------------------------------------*\
@@ -102,10 +103,10 @@ function html5blank_header_scripts()
 
 		wp_register_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', array('jquery'), '', true); // Popper.js
 		wp_enqueue_script('popper'); // Enqueue it!
-		
+
 		wp_register_script('bootstrapjs', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', array('jquery'), '', true); // Popper.js
 		wp_enqueue_script('bootstrapjs'); // Enqueue it!
-        
+
         wp_register_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('jquery'), '1.0.0'); // Custom scripts
         wp_enqueue_script('scripts'); // Enqueue it!
     }
