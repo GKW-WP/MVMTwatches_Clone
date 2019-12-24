@@ -74,6 +74,36 @@
   margin: 0 20px;
 }
 
+.footer li {
+  list-style: none;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.footer .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 10s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.footer .active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.footer .panel {
+  padding: 0 20px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
 .hero {
   height: 100vh;
 }
