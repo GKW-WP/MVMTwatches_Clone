@@ -63,11 +63,11 @@
 							<div id="WomenLinks" class="collapse" aria-labelledby="#WomenHeading" data-parent="#accordionfooter">
 								<div class="card-body">
 									<ul>
-										<li><a href="/collections/womens-best-sellers">Watches</a></li>
-										<li><a href="/collections/womens-sunglasses">Sunglasses</a></li>
-										<li><a href="/collections/womens-glasses">Everscroll</a></li>
-										<li><a href="/collections/womens-jewelry">Jewelry</a></li>
-										<li><a href="/pages/womens-strap-guide">Straps</a></li>
+										<li><a href="#">Watches</a></li>
+										<li><a href="#">Sunglasses</a></li>
+										<li><a href="#">Everscroll</a></li>
+										<li><a href="#">Jewelry</a></li>
+										<li><a href="#">Straps</a></li>
 									</ul>
 								</div>
 							</div>
@@ -101,18 +101,91 @@
 							</div>
 						</div>
 						<!-- Accordion Card End -->
+						<!-- Newsletter -->
+						<div class="newsletter row m-4">
+							<div class="col-12"><p>Sign up for Newsletter</p></div>
+							<div class="col-12 bg-dark">Enter Your Email Address</div>
+						</div>
+						<!-- End Newsletter -->
+						<!-- Media Icons -->
+						<div class="iconLinks text-center"> Icons </div>
+						<!-- Media Icons End -->
 					</div>
 					<!-- Accordion Footer End -->
 				</div>
 			</div>
 			<!--END-->
-			<div class="row footer-row d-none d-md-block">
-				<h1>Large</h1>
+			<div class="footer-row d-none d-md-flex row justify-content-center">
+				<div class="col-2">
+					<div class="row"><h2>Logo</h2></div>
+					<div class="row">
+						<ul class="no-style">
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-2">
+					<div class="row"><h4>TITLE</h4></div>
+					<div class="row">
+						<ul class="no-style">
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-2">
+					<div class="row"><h4>TITLE</h4></div>
+					<div class="row">
+						<ul class="no-style">
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-2">
+					<div class="row"><h4>TITLE</h4></div>
+					<div class="row">
+						<ul class="no-style">
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-2">
+					<div class="row"><h4>TITLE</h4></div>
+					<div class="row">
+						<ul class="no-style">
+							<li>Item 1</li>
+							<li>Item 2</li>
+							<li>Item 3</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copyright text-center">
+				<p>TERMS & CONDITIONS | PRIVACY POLICY | © 2019 MVMT</p>
 			</div>
 			</footer>
 			<!-- /footer -->
 		</div>
 		<!-- /wrapper -->
+		<!-- Message Bubble -->
+		<div class="msgBubble" id="msgBubble">
+			<img src="https://cdn1.iconfinder.com/data/icons/connecticons/340/threedotsbubble-512.png" alt="Message Bubble" width=75 height=75>
+		</div>
+		<div class="mymodal" id="myModal">
+			<div class="my-modal-content">
+				<span id="close">&times;</span>
+				<textarea name="" id="" cols="30" rows="10">Enter Message</textarea>
+				<button>Enter</button>
+			</div>
+		</div>
+		<!-- end Message Bubble -->
 		<?php wp_footer(); ?>
 	</body>
 </html>
