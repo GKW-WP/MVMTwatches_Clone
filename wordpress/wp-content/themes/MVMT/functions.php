@@ -101,7 +101,7 @@ function html5blank_header_scripts()
         wp_register_script('modernizr', get_template_directory_uri() . '/js/lib/modernizr-2.7.1.min.js', array(), '2.7.1'); // Modernizr
         wp_enqueue_script('modernizr'); // Enqueue it!
 
-		wp_register_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js', array('jquery'), '', true); // Popper.js
+		wp_register_script('popper', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js', array('jquery'), '', true); // Popper.js
 		wp_enqueue_script('popper'); // Enqueue it!
 
 		wp_register_script('bootstrapjs', 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js', array('jquery'), '', true); // Popper.js
@@ -139,6 +139,14 @@ function register_html5_menu()
         'sidebar-menu' => __('Sidebar Menu', 'html5blank'), // Sidebar Navigation
         'extra-menu' => __('Extra Menu', 'html5blank') // Extra Navigation if needed (duplicate as many as you need!)
     ));
+}
+
+// Register Bootstrap Navwalker Navigation
+function register_navwalker_menu()
+{
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'THEMENAME' ),
+    ) );
 }
 
 // Remove the <div> surrounding the dynamic navigation to cleanup markup
