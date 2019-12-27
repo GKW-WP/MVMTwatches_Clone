@@ -120,50 +120,51 @@
 					<div class="row"><h2>Logo</h2></div>
 					<div class="row">
 						<ul class="no-style">
-							<li>Item 1</li>
-							<li>Item 2</li>
-							<li>Item 3</li>
+							<li>support@mvmt.com1</li>
+							<li>Call Toll-Free</li>
+							<li>+1 (888) 507-0220</li>
+							<li>M-T 8:30-2 pm & F 9-1 pm PST</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-2">
-					<div class="row"><h4>TITLE</h4></div>
+					<div class="row"><ul class="no-style"><li>SHOP MVMT</li></ul></div>
 					<div class="row">
 						<ul class="no-style">
-							<li>Item 1</li>
-							<li>Item 2</li>
-							<li>Item 3</li>
+							<li>SHOP MENS</li>
+							<li>SHOP WOMENS</li>
+							<li>SHOP INSTA</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-2">
-					<div class="row"><h4>TITLE</h4></div>
+					<div class="row"><ul class="no-style"><li>CUSTOMER SERVICE</li></ul></div>
 					<div class="row">
 						<ul class="no-style">
-							<li>Item 1</li>
-							<li>Item 2</li>
-							<li>Item 3</li>
+							<li>MY ACCOUNT</li>
+							<li>CONTACT US</li>
+							<li>SHIPPING & RETURNS</li>
+							<li>FAQ</li>
+							<li>STORE LOCATOR</li>
+							<li>SITE MAP</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-2">
-					<div class="row"><h4>TITLE</h4></div>
+					<div class="row"><ul class="no-style"><li>#JOINTHEMVMT</li></ul></div>
 					<div class="row">
 						<ul class="no-style">
-							<li>Item 1</li>
-							<li>Item 2</li>
-							<li>Item 3</li>
+							<li>OUR STORY</li>
+							<li>OUR BLOG</li>
+							<li>MVMT INSIDER</li>
+							<li>AMBASSADORS & AFFILIATES</li>
 						</ul>
 					</div>
 				</div>
 				<div class="col-2">
-					<div class="row"><h4>TITLE</h4></div>
+					<div class="row"><ul class="no-style"><li>Sign up for newsletter</li></ul></div>
 					<div class="row">
-						<ul class="no-style">
-							<li>Item 1</li>
-							<li>Item 2</li>
-							<li>Item 3</li>
-						</ul>
+						<form action=""><input type="text" placeholder="Insert Email"></form>
 					</div>
 				</div>
 			</div>
@@ -180,9 +181,17 @@
 		</div>
 		<div class="mymodal" id="myModal">
 			<div class="my-modal-content">
-				<span id="close">&times;</span>
-				<textarea name="" id="" cols="30" rows="10">Enter Message</textarea>
-				<button>Enter</button>
+				<div class="row justify-content-between">
+					<div class="col-2">nothing</div>
+					<div class="col-9"><h6>MVMT</h6><h6>How can we help you?</h6></div>
+				</div>
+				<div class="modal-form">
+					<form action="">
+						<input type="text" placeholder="Leave Your Email">
+						<textarea name="" id="" cols="30" rows="10" placeholder="Write Your Message"></textarea>
+					</form>
+					<button>Send</button>
+				</div>
 			</div>
 		</div>
 		<!-- end Message Bubble -->
