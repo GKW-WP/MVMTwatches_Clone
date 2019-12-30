@@ -399,6 +399,7 @@ add_filter('show_admin_bar', 'remove_admin_bar'); // Remove Admin bar
 //     ));
 // }
 
+
 // /*------------------------------------*\
 // 	ShortCode Functions
 // \*------------------------------------*/
