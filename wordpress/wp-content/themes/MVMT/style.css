@@ -1,22 +1,18 @@
-/**
- * styles.scss
- * ---
- * Main `sass` file. Import here `sass` files
- */
-@import url("https://fonts.googleapis.com/css?family=Hind:400,700|Roboto+Slab");
-* {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Error: Undefined variable.
+ *    ,
+ * 28 |       font-family: $font-family-base;
+ *    |                    ^^^^^^^^^^^^^^^^^
+ *    '
+ *   sass\partials\hero.scss 28:20  @import
+ *   sass\style.scss 18:9           root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 28 \2502        font-family: $font-family-base;\d\a    \2502                     ^^^^^^^^^^^^^^^^^\a    \2575 \a   sass\\partials\\hero.scss 28:20  @import\a   sass\\style.scss 18:9           root stylesheet";
 }
-h1 {
-  color: mediumaquamarine;
-}
-@media only screen and (max-width:768px) {
-	header {
-		display: none;
-	}
-	footer {
-		display: none;
-	}
-}
-/*# sourceMappingURL=style.css.map */
