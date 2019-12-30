@@ -25,21 +25,46 @@
 	</head>
 	<body <?php body_class(); ?>>
 
+	<section class="Promo">
+		<div class="container-fluid percent d-flex justify-content-center align-items-center">
+			<p>
+				20% OFF MARKDOWNS | USE CODE <b> MVMT20 </b>
+			</p>
+		</div>
+	</section>
+
+	<section class="Nav">
+		<div class="container-fluid links d-flex flex-row">
+			<div class="col-4 d-flex justify-content-center align-items-center">
+				<a class="nav-link" href="#">Mens</a>
+				<a class="nav-link" href="#">Womens</a>
+				<a class="nav-link" href="#">Brand</a>
+			</div>
+			<div class="col-4 d-flex justify-content-center align-items-center">
+				<a class="nav-link img" href="#">
+					<img src="http://mvmt.practice/wp-content/uploads/2019/12/logo.png" alt="MVMT's Logo">
+				</a>
+			</div>
+			<div class="col-4 d-flex justify-content-center align-items-center">
+				<a class="nav-link" href="#">Account</a>
+				<a class="nav-link" href="#">Cart</a>
+				<p>|</p>
+				<a class="nav-link" href="#">Search</a>
+			</div>
+		</div>
+	</section>
+
 		<!-- wrapper -->
 		<div class="wrapper">
 
 			<!-- header -->
 			<header class="header clear" role="banner">
 
-				<!-- logo -->
-				<div class="logo">
-					<a href="<?php echo home_url(); ?>">
-						<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-					</a>
-				</div>
-				<!-- /logo -->
+				<section class="">
+
+
+				</section>
+
 
 			</header>
 			<!-- /header -->
-<h1>Hola Cruz!</h1>

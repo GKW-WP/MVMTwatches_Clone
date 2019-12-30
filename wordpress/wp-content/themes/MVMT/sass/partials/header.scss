@@ -18,3 +18,49 @@
 }
 
 .logo-img {}
+
+//Header
+.Promo
+{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-family: Futura-pt, arial, sans-serif;
+  .percent
+  {
+    height: 5vh;
+    a
+    {
+      text-decoration: none;
+    }
+    p
+    {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+.Nav
+{
+  background-color: white;
+  color: black;
+  .links
+  {
+    height: 7vh;
+    a
+    {
+      display: inline;
+      text-decoration: none;
+      color: black;
+      font-size: 12px;
+      font-family: Futura-pt, arial, sans-serif;
+      padding: 34px 24px 32px;
+    }
+    p
+    {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
