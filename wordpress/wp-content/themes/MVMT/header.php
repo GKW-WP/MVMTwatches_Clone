@@ -25,6 +25,35 @@
 	</head>
 	<body <?php body_class(); ?>>
 
+	<section class="NavTwo">
+		<div class="links d-flex flex-row">
+
+			<div class="col-2 d-flex justify-content-center align-items-center h">
+				<a class="nav-link img" href="#">
+					<img src="http://mvmt.practice/wp-content/uploads/2019/12/logo.png" alt="MVMT's Logo">
+				</a>
+			</div>
+
+			<div class="col-4 d-flex justify-content-center align-items-center h">
+				<a class="nav-link" href="#">Mens</a>
+			</div>
+
+			<div class="col-4 d-flex justify-content-center align-items-center h">
+				<a class="nav-link" href="#">Womens</a>
+			</div>
+
+			<div class="col-1 d-flex justify-content-center align-items-center h">
+				<a class="nav-link" href="#">Icon</a>
+			</div>
+
+			<div class="col-1 d-flex justify-content-center align-items-center h">
+				<a class="nav-link" href="#">Icon</a>
+			</div>
+
+		</div>
+	</section>
+
+
 	<section class="Promo">
 		<div class="container-fluid percent d-flex justify-content-center align-items-center">
 			<p>

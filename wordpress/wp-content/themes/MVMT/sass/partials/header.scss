@@ -45,16 +45,16 @@
 {
   background-color: white;
   color: black;
+  font-size: 12px;
+  font-family: Futura-pt, arial, sans-serif;
   .links
   {
-    height: 7vh;
+    height: 10vh;
     a
     {
       display: inline;
       text-decoration: none;
       color: black;
-      font-size: 12px;
-      font-family: Futura-pt, arial, sans-serif;
       padding: 34px 24px 32px;
     }
     p
@@ -62,5 +62,51 @@
       padding: 0;
       margin: 0;
     }
+  }
+}
+
+.NavTwo
+{
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-family: Futura-pt, arial, sans-serif;
+
+  .h
+  {
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    border-color: black;
+  }
+
+
+  .links
+  {
+    height: 10vh;
+    a
+    {
+      display: inline;
+      text-decoration: none;
+      color: black;
+      padding: 34px 24px 32px;
+    }
+    p
+    {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Nav
+  {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .NavTwo
+  {
+    display: none;
   }
 }
