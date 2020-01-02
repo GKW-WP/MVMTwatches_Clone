@@ -20,9 +20,34 @@ get_header(); ?>
 	<!-- End of Promotion DUal Column -->
 	<!-- Watch Slider -->
 	<div class="row">
-		Slider :D
+		<h1>Slider :D</h1>
 	</div>
 	<!-- End of Watch Slider -->
 	<!-- Three Column -->
+	<div class="row d-flex justify-content-center Shopify">
+		<div class="col-md-3">
+			<div class="img-div">
+				<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/thisismvmt_blog_30a13e4f-25a8-421b-bcc9-b50b87e8b8d8_600x@2x.jpg?v=1577124743" alt="">
+			</div>
+			<p class="">This is MVMT</p>
+		</div>
+		<div class="col-md-3">
+			<div class="img-div">
+				<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/field_blog_885e5fee-7c12-40fe-8954-4661d6172fae_600x@2x.jpg?v=1577211318" alt="">
+			</div>
+			<p class="">The Field Collection</p>
+		</div>
+		<div class="col-md-3">
+			<div class="img-div">
+				<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/paradiseawaits_blog_b98d644b-c254-4ba8-9425-1f70efbdebe7_600x@2x.jpg?v=1577211351" alt="">
+			</div>
+			<p class="">Paradise is Calling</p>
+		</div>
+	</div>
 	<!-- End of Three Column -->
+	<!-- Carousel Row -->
+	<div class="row">
+		<h1>Carousel</h1>
+	</div>
+	<!-- End of Carousel Row -->
 <?php get_footer(); ?>

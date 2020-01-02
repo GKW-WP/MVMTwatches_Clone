@@ -294,6 +294,27 @@ p {
   color: white;
 }
 
+.Shopify .col-md-3, .Shopify .col-md-4 {
+  padding-bottom: 15px;
+  margin: 0 10px;
+}
+.Shopify .col-md-3 p, .Shopify .col-md-4 p {
+  justify-self: left;
+}
+.Shopify .img-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 360px;
+  /* or other desired height */
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.Shopify img {
+  flex: none;
+  height: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .promo-link {
     background-color: #fff !important;

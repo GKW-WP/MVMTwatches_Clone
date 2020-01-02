@@ -37,6 +37,27 @@ p {
     }
   }
 }
+.Shopify {
+  .col-md-3, .col-md-4 {
+    padding-bottom: 15px;
+    margin: 0 10px;
+    p {
+      justify-self: left;
+    }
+  }
+  .img-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 360px; /* or other desired height */
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  img {
+    flex: none;
+    height: 100%;
+  }
+}
 @media screen and (max-width: 1200px) {
   .promo-link {
     background-color: #fff !important;
