@@ -27,32 +27,25 @@
 
 	<section class="NavTwo">
 		<div class="links d-flex flex-row">
-
 			<div class="col-2 d-flex justify-content-center align-items-center h">
 				<a class="nav-link img" href="#">
 					<img src="http://mvmt.practice/wp-content/uploads/2019/12/logo.png" alt="MVMT's Logo">
 				</a>
 			</div>
-
 			<div class="col-4 d-flex justify-content-center align-items-center h">
 				<a class="nav-link" href="#">Mens</a>
 			</div>
-
 			<div class="col-4 d-flex justify-content-center align-items-center h">
 				<a class="nav-link" href="#">Womens</a>
 			</div>
-
 			<div class="col-1 d-flex justify-content-center align-items-center h">
 				<a class="nav-link" href="#">Icon</a>
 			</div>
-
 			<div class="col-1 d-flex justify-content-center align-items-center h">
 				<a class="nav-link" href="#">Icon</a>
 			</div>
-
 		</div>
 	</section>
-
 
 	<section class="Promo">
 		<div class="container-fluid percent d-flex justify-content-center align-items-center">
@@ -63,7 +56,7 @@
 	</section>
 
 	<section class="Nav">
-		<div class="container-fluid links d-flex flex-row">
+		<div class="links d-flex flex-row">
 			<div class="col-4 d-flex justify-content-center align-items-center">
 				<a class="nav-link" href="#">Mens</a>
 				<a class="nav-link" href="#">Womens</a>
@@ -79,6 +72,21 @@
 				<a class="nav-link" href="#">Cart</a>
 				<p>|</p>
 				<a class="nav-link" href="#">Search</a>
+			</div>
+		</div>
+	</section>
+
+	<section class="HeroOne">
+		<div class="heroBanner d-flex flex-wrap justify-content-center">
+			<div class="offset-md-3 col-sm-12 col-lg-3 yoo">
+				<a href="#" class="btn">
+					Shop Mens
+				</a>
+			</div>
+			<div class="col-sm-12 col-lg-3 yoo">
+				<a href="#" class="btn">
+					Shop Womens
+				</a>
 			</div>
 		</div>
 	</section>

@@ -98,11 +98,6 @@
   font-size: 12px;
   font-family: Futura-pt, arial, sans-serif;
 }
-.NavTwo .h {
-  border-width: 0px 1px 0px 0px;
-  border-style: solid;
-  border-color: #e8e8e8;
-}
 .NavTwo .links {
   height: 10vh;
 }
@@ -115,6 +110,25 @@
 .NavTwo .links p {
   padding: 0;
   margin: 0;
+}
+.NavTwo .h {
+  border-width: 0px 1px 0px 0px;
+  border-style: solid;
+  border-color: #e8e8e8;
+}
+
+.HeroOne {
+  height: 95vh;
+  background-color: greenyellow;
+}
+.HeroOne .heroBanner .yoo {
+  background-color: red;
+  margin: 0;
+}
+.HeroOne .heroBanner a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 992px) {

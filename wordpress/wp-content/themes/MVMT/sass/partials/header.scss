@@ -71,15 +71,6 @@
   color: black;
   font-size: 12px;
   font-family: Futura-pt, arial, sans-serif;
-
-  .h
-  {
-    border-width: 0px 1px 0px 0px;
-    border-style: solid;
-    border-color: #e8e8e8;
-  }
-
-
   .links
   {
     height: 10vh;
@@ -94,6 +85,32 @@
     {
       padding: 0;
       margin: 0;
+    }
+  }
+  .h
+  {
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    border-color: #e8e8e8;
+  }
+}
+
+.HeroOne
+{
+  height: 95vh;
+  background-color: greenyellow;
+  .heroBanner
+  {
+    .yoo
+    {
+      background-color: red;
+      margin: 0;
+    }
+    a
+    {
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
     }
   }
 }
