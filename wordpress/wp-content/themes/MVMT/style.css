@@ -117,17 +117,36 @@
   border-color: #e8e8e8;
 }
 
-.HeroOne {
-  height: 95vh;
+.Hero .heroBanner {
+  height: 90vh;
   background-color: greenyellow;
+  background-image: url("http://mvmt.practice/wp-content/uploads/2020/01/Mvmt_This_is.jpg");
+  background-size: cover;
 }
-.HeroOne .heroBanner .yoo {
+.Hero .heroBanner .shopBtn {
   background-color: red;
   margin: 0;
+  padding: 0;
+  border: 0;
+  height: 10vh;
 }
-.HeroOne .heroBanner a {
+.Hero .heroBanner a {
+  display: inline;
   padding: 0;
   margin: 0;
+  border: 0;
+  text-decoration: none;
+}
+.Hero .heroBannerTwo {
+  height: 90vh;
+  background-color: greenyellow;
+  background-image: url("http://mvmt.practice/wp-content/uploads/2020/01/Mvmt_This_is.jpg");
+  background-size: cover;
+}
+.Hero .heroBannerTwo .shopBtnTwo {
+  width: 100%;
+}
+.Hero .heroBannerTwo .shopBtnTwo .btnTwo {
   text-decoration: none;
 }
 
@@ -135,10 +154,18 @@
   .Nav {
     display: none;
   }
+
+  .heroBanner {
+    display: none !important;
+  }
 }
 @media only screen and (min-width: 992px) {
   .NavTwo {
     display: none;
+  }
+
+  .heroBannerTwo {
+    display: none !important;
   }
 }
 /**

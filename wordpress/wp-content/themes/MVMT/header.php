@@ -25,6 +25,7 @@
 	</head>
 	<body <?php body_class(); ?>>
 
+	<!-- NavTwo section is the visable hero once the screen is smaller -->
 	<section class="NavTwo">
 		<div class="links d-flex flex-row">
 			<div class="col-2 d-flex justify-content-center align-items-center h">
@@ -46,6 +47,7 @@
 			</div>
 		</div>
 	</section>
+	<!-- End NavTwo Section -->
 
 	<section class="Promo">
 		<div class="container-fluid percent d-flex justify-content-center align-items-center">
@@ -55,6 +57,7 @@
 		</div>
 	</section>
 
+	<!-- Nav section is the visable hero once the screen is big -->
 	<section class="Nav">
 		<div class="links d-flex flex-row">
 			<div class="col-4 d-flex justify-content-center align-items-center">
@@ -75,21 +78,40 @@
 			</div>
 		</div>
 	</section>
+	<!-- End Nav Section -->
 
-	<section class="HeroOne">
-		<div class="heroBanner d-flex flex-wrap justify-content-center">
-			<div class="offset-md-3 col-sm-12 col-lg-3 yoo">
+	<section class="Hero">
+		<!-- heroBanner is the visable hero once the screen is big -->
+		<div class="container-fluid heroBanner d-flex flex-row flex-wrap justify-content-center justify-content-end align-items-end">
+			<div class="col-3 order-1 shopBtn">
 				<a href="#" class="btn">
 					Shop Mens
 				</a>
 			</div>
-			<div class="col-sm-12 col-lg-3 yoo">
+			<div class="col-3 order-1 shopBtn">
 				<a href="#" class="btn">
 					Shop Womens
 				</a>
 			</div>
 		</div>
+		<!-- End Hero Banner -->
+
+		<!-- heroBannerTwo is the visable hero once the screen is smaller -->
+		<div class="container-fluid heroBannerTwo d-flex flex-column justify-content-end">
+			<div class="shopBtnTwo">
+				<a href="#" class="btnTwo">
+					Shop Mens
+				</a>
+			</div>
+			<div class="shopBtnTwo">
+				<a href="#" class="btnTwo">
+					Shop Womens
+				</a>
+			</div>
+		</div>
+		<!-- End heroBannerTwo -->
 	</section>
+
 
 		<!-- wrapper -->
 		<div class="wrapper">
