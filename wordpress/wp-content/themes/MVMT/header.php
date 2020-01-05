@@ -97,7 +97,7 @@
 		<!-- End Hero Banner -->
 
 		<!-- heroBannerTwo is the visable hero once the screen is smaller -->
-		<div class="container-fluid heroBannerTwo d-flex flex-column justify-content-end">
+		<div class="container-fluid heroBannerTwo d-flex flex-column justify-content-end align-items-end">
 			<div class="shopBtnTwo text-center">
 				<a href="#" class="btnTwo">
 					&nbsp; Shop Mens &nbsp;

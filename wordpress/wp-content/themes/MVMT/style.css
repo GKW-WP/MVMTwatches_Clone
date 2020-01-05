@@ -157,6 +157,17 @@
 }
 .Hero .heroBannerTwo .shopBtnTwo .btnTwo {
   text-decoration: none;
+  display: block;
+  background-color: black;
+  color: white;
+  transition: background-color 200ms;
+  font-size: 14px;
+  font-family: Futura-pt, arial, sans-serif;
+  font-weight: 600;
+}
+.Hero .heroBannerTwo .shopBtnTwo .btnTwo:hover {
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (max-width: 992px) {
