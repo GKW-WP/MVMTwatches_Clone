@@ -83,12 +83,12 @@
 	<section class="Hero">
 		<!-- heroBanner is the visable hero once the screen is big -->
 		<div class="container-fluid heroBanner d-flex flex-row flex-wrap justify-content-center justify-content-end align-items-end">
-			<div class="col-3 order-1 shopBtn">
+			<div class="col-2 order-1 shopBtn text-center">
 				<a href="#" class="btn">
-					Shop Mens
+					&nbsp; Shop Mens &nbsp;
 				</a>
 			</div>
-			<div class="col-3 order-1 shopBtn">
+			<div class="col-2 order-1 shopBtn text-center">
 				<a href="#" class="btn">
 					Shop Womens
 				</a>
@@ -98,12 +98,12 @@
 
 		<!-- heroBannerTwo is the visable hero once the screen is smaller -->
 		<div class="container-fluid heroBannerTwo d-flex flex-column justify-content-end">
-			<div class="shopBtnTwo">
+			<div class="shopBtnTwo text-center">
 				<a href="#" class="btnTwo">
-					Shop Mens
+					&nbsp; Shop Mens &nbsp;
 				</a>
 			</div>
-			<div class="shopBtnTwo">
+			<div class="shopBtnTwo text-center">
 				<a href="#" class="btnTwo">
 					Shop Womens
 				</a>

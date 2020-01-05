@@ -124,7 +124,6 @@
   background-size: cover;
 }
 .Hero .heroBanner .shopBtn {
-  background-color: red;
   margin: 0;
   padding: 0;
   border: 0;
@@ -132,13 +131,23 @@
 }
 .Hero .heroBanner a {
   display: inline;
-  padding: 0;
   margin: 0;
   border: 0;
   text-decoration: none;
+  background-color: white;
+  color: black;
+  padding: 14px 20px;
+  transition: background-color 200ms;
+  font-size: 14px;
+  font-family: Futura-pt, arial, sans-serif;
+  font-weight: 600;
+}
+.Hero .heroBanner a:hover {
+  background-color: black;
+  color: white;
 }
 .Hero .heroBannerTwo {
-  height: 90vh;
+  height: 85vh;
   background-color: greenyellow;
   background-image: url("http://mvmt.practice/wp-content/uploads/2020/01/Mvmt_This_is.jpg");
   background-size: cover;
