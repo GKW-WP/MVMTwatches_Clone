@@ -1,5 +1,5 @@
-h1 {
-  color: mediumaquamarine;
+body {
+  overflow-x: hidden;
 }
 p {
   color: black;
@@ -37,6 +37,7 @@ p {
     }
   }
 }
+
 .Shopify {
   .col-md-3, .col-md-4 {
     padding-bottom: 15px;
@@ -63,7 +64,9 @@ p {
     background-color: #fff !important;
     padding: 25px !important;
     width: 100% !important;
-    margin-bottom: 0px !important;
+    position: relative !important;
+    bottom: 0% !important;
+    left: 0% !important;
     .btn {
       background-color: #000 !important;
       color: #fff !important;
@@ -73,5 +76,52 @@ p {
   }
   .col-md-5 {
     height: 35vh;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+.slider-wrapper {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3,100%);
+  section {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin: 20px 0;
+    .item img {
+      width: 25vw;
+      padding: 0 2px;
+    }
+    a {
+      position: absolute;
+      text-decoration: none;
+      color: black;
+      font-size: 3em;
+      background-color: white;
+      padding: 0 5px;
+      height: 25%;
+      text-align: center;
+      z-index: 1;
+      border: 1px solid black;
+      &:nth-of-type(1) {
+        top: 40%; bottom: 0; right: 0;
+      }
+      &:nth-of-type(2) {
+        top: 40%; bottom: 0; left: 0;
+      }
+    }
+    /* this was just used to make a background color*/
+    /* &:nth-child(1) {
+      background-color: cyan;
+    }
+    &:nth-child(2) {
+      background-color: magenta;
+    }
+    &:nth-child(3) {
+      background-color: teal;
+    }*/
   }
 }

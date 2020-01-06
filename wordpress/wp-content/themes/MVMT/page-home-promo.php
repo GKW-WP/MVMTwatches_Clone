@@ -17,7 +17,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</div>
-	<!-- End of Promotion DUal Column -->
+	<!-- end Dual Colum -->
 	<!-- Watch Slider -->
 	<div class="row">
 		<h1>Slider :D</h1>
@@ -47,7 +47,56 @@ get_header(); ?>
 	<!-- End of Three Column -->
 	<!-- Carousel Row -->
 	<div class="row">
-		<h1>Carousel</h1>
+		<div class="slider-wrapper">
+			<section id="section1">
+				<a href="#section2">►</a>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/MensJewelry_CategoryScroll_fa784c20-6fc8-47ff-bfe5-69ae3b4d9c5f_600x.jpg?v=1572545259" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/MensJewelry_CategoryScroll_fa784c20-6fc8-47ff-bfe5-69ae3b4d9c5f_600x.jpg?v=1572545259" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/MensJewelry_CategoryScroll_fa784c20-6fc8-47ff-bfe5-69ae3b4d9c5f_600x.jpg?v=1572545259" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/MensJewelry_CategoryScroll_fa784c20-6fc8-47ff-bfe5-69ae3b4d9c5f_600x.jpg?v=1572545259" alt="">
+				</div>
+				<a href="#section3">◄</a>
+			</section>
+			<section id="section2">
+				<a href="#section3">►</a>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/WomensJewelry_CategoryScroll_7c33f714-743f-41ac-a2c4-661b0c711ce1_600x.jpg?v=1572545272" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/WomensJewelry_CategoryScroll_7c33f714-743f-41ac-a2c4-661b0c711ce1_600x.jpg?v=1572545272" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/WomensJewelry_CategoryScroll_7c33f714-743f-41ac-a2c4-661b0c711ce1_600x.jpg?v=1572545272" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/WomensJewelry_CategoryScroll_7c33f714-743f-41ac-a2c4-661b0c711ce1_600x.jpg?v=1572545272" alt="">
+				</div>
+				<a href="#section1">◄</a>
+			</section>
+			<section id="section3">
+				<a href="#section1">►</a>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/MensWatches_CategoryScroll_1e7dbd61-1070-402f-b8ee-3a3bb55c8341_600x.jpg?v=1572545169" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/MensWatches_CategoryScroll_1e7dbd61-1070-402f-b8ee-3a3bb55c8341_600x.jpg?v=1572545169" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/MensWatches_CategoryScroll_1e7dbd61-1070-402f-b8ee-3a3bb55c8341_600x.jpg?v=1572545169" alt="">
+				</div>
+				<div class="item">
+					<img src="https://mvmt.imgix.net/s/files/1/0377/2037/files/MensWatches_CategoryScroll_1e7dbd61-1070-402f-b8ee-3a3bb55c8341_600x.jpg?v=1572545169" alt="">
+				</div>
+				<a href="#section2">◄</a>
+			</section>
+		</div>
 	</div>
 	<!-- End of Carousel Row -->
 <?php get_footer(); ?>
