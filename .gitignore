@@ -37,3 +37,6 @@ site.yml
 # large/disallowed file types
 .mp4
 .pdf
+# Git ignore for css, watch sass once pulled to create css
+wordpress/wp-content/themes/MVMT/style.css
+wordpress/wp-content/themes/MVMT/style.css.map

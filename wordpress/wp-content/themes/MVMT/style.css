@@ -254,14 +254,138 @@ span#close {
   margin: 0 auto;
 }
 
-h1 {
-  color: mediumaquamarine;
+body {
+  overflow-x: hidden;
 }
 
 p {
   color: black;
   font-family: Futura-pt, arial, sans-serif;
   font-size: 11px;
+}
+
+.promos .col-md-5 {
+  height: 70vh;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 20px 0px;
+  padding: 0;
+}
+.promos .promo-link {
+  background-color: #fff;
+  padding: 25px;
+  width: 50%;
+  margin-bottom: -10px;
+}
+.promos .promo-link .btn {
+  background-color: #fff;
+  color: #000;
+  padding: 15px;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 0% !important;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.promos .promo-link .btn:hover {
+  background-color: #000;
+  color: white;
+}
+
+.Shopify .col-md-3, .Shopify .col-md-4 {
+  padding-bottom: 15px;
+  margin: 0 10px;
+}
+.Shopify .col-md-3 p, .Shopify .col-md-4 p {
+  justify-self: left;
+}
+.Shopify .img-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 360px;
+  /* or other desired height */
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.Shopify img {
+  flex: none;
+  height: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .promo-link {
+    background-color: #fff !important;
+    padding: 25px !important;
+    width: 100% !important;
+    position: relative !important;
+    bottom: 0% !important;
+    left: 0% !important;
+  }
+  .promo-link .btn {
+    background-color: #000 !important;
+    color: #fff !important;
+    width: 75% !important;
+    border: 2px solid black !important;
+  }
+
+  .col-md-5 {
+    height: 35vh;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.slider-wrapper {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 100%);
+}
+.slider-wrapper section {
+  width: 100%;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin: 20px 0;
+  /* this was just used to make a background color*/
+  /* &:nth-child(1) {
+    background-color: cyan;
+  }
+  &:nth-child(2) {
+    background-color: magenta;
+  }
+  &:nth-child(3) {
+    background-color: teal;
+  }*/
+}
+.slider-wrapper section .item img {
+  width: 25vw;
+  padding: 0 2px;
+}
+.slider-wrapper section a {
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-size: 3em;
+  background-color: white;
+  padding: 0 5px;
+  height: 25%;
+  text-align: center;
+  z-index: 1;
+  border: 1px solid black;
+}
+.slider-wrapper section a:nth-of-type(1) {
+  top: 40%;
+  bottom: 0;
+  right: 0;
+}
+.slider-wrapper section a:nth-of-type(2) {
+  top: 40%;
+  bottom: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
