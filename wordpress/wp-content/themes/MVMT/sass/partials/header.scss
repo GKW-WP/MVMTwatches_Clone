@@ -18,3 +18,164 @@
 }
 
 .logo-img {}
+
+//Header
+.Promo
+{
+  background-color: black;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-family: Futura-pt, arial, sans-serif;
+  .percent
+  {
+    height: 5vh;
+    a
+    {
+      text-decoration: none;
+    }
+    p
+    {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+.Nav
+{
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-family: Futura-pt, arial, sans-serif;
+  .links
+  {
+    height: 10vh;
+    a
+    {
+      display: inline;
+      text-decoration: none;
+      color: black;
+      padding: 34px 24px 32px;
+    }
+    p
+    {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+.NavTwo
+{
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-family: Futura-pt, arial, sans-serif;
+  .links
+  {
+    height: 10vh;
+    a
+    {
+      display: inline;
+      text-decoration: none;
+      color: black;
+      padding: 34px 24px 32px;
+    }
+    p
+    {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .h
+  {
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+    border-color: #e8e8e8;
+  }
+}
+
+.Hero
+{
+  .heroBanner
+  {
+    height: 90vh;
+    background-color: greenyellow;
+    background-image: url("http://mvmt.practice/wp-content/uploads/2020/01/Mvmt_This_is.jpg");
+    background-size: cover;
+    .shopBtn
+    {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      height: 10vh;
+    }
+    a
+    {
+      display: inline;
+      margin: 0;
+      border: 0;
+      text-decoration: none;
+      background-color: rgba(255, 255, 255);
+      color: black;
+      padding: 14px 20px;
+      transition: background-color 200ms;
+      font-size: 14px;
+      font-family: Futura-pt, arial, sans-serif;
+      font-weight: 600;
+    }
+    a:hover
+    {
+      background-color: rgba(0, 0, 0);
+      color: white;
+    }
+  }
+  .heroBannerTwo
+  {
+    height: 85vh;
+    background-color: greenyellow;
+    background-image: url("http://mvmt.practice/wp-content/uploads/2020/01/Mvmt_This_is.jpg");
+    background-size: cover;
+    .shopBtnTwo
+    {
+      width: 100%;
+      .btnTwo
+      {
+        text-decoration: none;
+        display: block;
+        background-color: black;
+        color: rgba(255, 255, 255);
+        transition: background-color 200ms;
+        font-size: 14px;
+        font-family: Futura-pt, arial, sans-serif;
+        font-weight: 600;
+      }
+      .btnTwo:hover
+    {
+      background-color: rgba(255, 255, 255);
+      color: black;
+    }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .Nav
+  {
+    display: none;
+  }
+  .heroBanner
+  {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .NavTwo
+  {
+    display: none;
+  }
+  .heroBannerTwo
+  {
+    display: none !important;
+  }
+}

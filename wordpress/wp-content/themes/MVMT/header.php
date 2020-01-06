@@ -25,21 +25,105 @@
 	</head>
 	<body <?php body_class(); ?>>
 
+	<!-- NavTwo section is the visable hero once the screen is smaller -->
+	<section class="NavTwo">
+		<div class="links d-flex flex-row">
+			<div class="col-2 d-flex justify-content-center align-items-center h">
+				<a class="nav-link img" href="#">
+					<img src="http://mvmt.practice/wp-content/uploads/2019/12/logo.png" alt="MVMT's Logo">
+				</a>
+			</div>
+			<div class="col-4 d-flex justify-content-center align-items-center h">
+				<a class="nav-link" href="#">Mens</a>
+			</div>
+			<div class="col-4 d-flex justify-content-center align-items-center h">
+				<a class="nav-link" href="#">Womens</a>
+			</div>
+			<div class="col-1 d-flex justify-content-center align-items-center h">
+				<a class="nav-link" href="#">Icon</a>
+			</div>
+			<div class="col-1 d-flex justify-content-center align-items-center h">
+				<a class="nav-link" href="#">Icon</a>
+			</div>
+		</div>
+	</section>
+	<!-- End NavTwo Section -->
+
+	<section class="Promo">
+		<div class="container-fluid percent d-flex justify-content-center align-items-center">
+			<p>
+				20% OFF MARKDOWNS | USE CODE <b> MVMT20 </b>
+			</p>
+		</div>
+	</section>
+
+	<!-- Nav section is the visable hero once the screen is big -->
+	<section class="Nav">
+		<div class="links d-flex flex-row">
+			<div class="col-4 d-flex justify-content-center align-items-center">
+				<a class="nav-link" href="#">Mens</a>
+				<a class="nav-link" href="#">Womens</a>
+				<a class="nav-link" href="#">Brand</a>
+			</div>
+			<div class="col-4 d-flex justify-content-center align-items-center">
+				<a class="nav-link img" href="#">
+					<img src="http://mvmt.practice/wp-content/uploads/2019/12/logo.png" alt="MVMT's Logo">
+				</a>
+			</div>
+			<div class="col-4 d-flex justify-content-center align-items-center">
+				<a class="nav-link" href="#">Account</a>
+				<a class="nav-link" href="#">Cart</a>
+				<p>|</p>
+				<a class="nav-link" href="#">Search</a>
+			</div>
+		</div>
+	</section>
+	<!-- End Nav Section -->
+
+	<section class="Hero">
+		<!-- heroBanner is the visable hero once the screen is big -->
+		<div class="container-fluid heroBanner d-flex flex-row flex-wrap justify-content-center justify-content-end align-items-end">
+			<div class="col-2 order-1 shopBtn text-center">
+				<a href="#" class="btn">
+					&nbsp; Shop Mens &nbsp;
+				</a>
+			</div>
+			<div class="col-2 order-1 shopBtn text-center">
+				<a href="#" class="btn">
+					Shop Womens
+				</a>
+			</div>
+		</div>
+		<!-- End Hero Banner -->
+
+		<!-- heroBannerTwo is the visable hero once the screen is smaller -->
+		<div class="container-fluid heroBannerTwo d-flex flex-column justify-content-end align-items-end">
+			<div class="shopBtnTwo text-center">
+				<a href="#" class="btnTwo">
+					&nbsp; Shop Mens &nbsp;
+				</a>
+			</div>
+			<div class="shopBtnTwo text-center">
+				<a href="#" class="btnTwo">
+					Shop Womens
+				</a>
+			</div>
+		</div>
+		<!-- End heroBannerTwo -->
+	</section>
+
+
 		<!-- wrapper -->
 		<div class="wrapper">
 
 			<!-- header -->
 			<header class="header clear" role="banner">
 
-				<!-- logo -->
-				<div class="logo">
-					<a href="<?php echo home_url(); ?>">
-						<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-						<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-					</a>
-				</div>
-				<!-- /logo -->
+				<section class="">
+
+
+				</section>
+
 
 			</header>
 			<!-- /header -->
-<h1>Hola Cruz!</h1>
